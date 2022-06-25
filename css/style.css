@@ -6,6 +6,7 @@
 .header {    
     color: white;
     font-size: 12px;
+    
     background-color: black;    
     display: flex;
     justify-content: space-between;
@@ -321,4 +322,16 @@ input {
     margin: 0px;
     text-align: center;
     color: #FFFFFF;
+}
+
+input:valid{
+    background-color: green;
+}
+
+input:invalid {
+    background-color: red;
+}
+
+.lista-amarillo-ul li::before {
+    content:url('../img/pawprint 2.png');
 }
